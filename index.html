@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="https://www.mypikpak.com/logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NT网盘</title>
-  </head>
+ <html>
+    <head>
+        <meta charset='utf-8'>
+        <title>NT网盘</title>
+        <meta name='viewport' content='width=device-width'>
+        <meta name='referrer' content='no-referrer'>
+        <link rel='icon' href='nt.ico'>
+        <link rel='stylesheet' href='https://cdn.bootcdn.net/ajax/libs/mdui/1.0.2/css/mdui.min.css'>
+        <link rel='stylesheet' href='http://52nt.top/CSS.css'>
+    </head>
+
+    <body class='mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-indigo'>
+        <header class='mdui-appbar mdui-appbar-fixed'>
+            <div class='mdui-toolbar mdui-color-theme'>
+                <button mdui-drawer="{target: '#main-drawer'}" class='mdui-btn mdui-btn-icon' ><i class='mdui-icon material-icons'>menu</i></button>
+                <a href='./' class='mdui-typo-headline'>NT网盘</span></a>
+                <div class='mdui-toolbar-spacer'></div>
+            </div>
+        </header>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
